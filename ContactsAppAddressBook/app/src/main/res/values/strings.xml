@@ -1,0 +1,23 @@
+<resources>
+<string name="app_name">Contacts App—Address Book</string>
+<string name="txtTitle">Address Book</string>
+<string name="detailButton">Detail Contact</string>
+<string name="txtNo1FirstName">Kevin</string>
+<string name="txtNo2FirstName">Lima</string>
+<string name="txtNo1LastName">Jone</string>
+<string name="txtNo2LastName">Jack</string>
+<string name="txtNo1Title">No.1 Contact Address</string>
+<string name="txtNo2Title">No.2 Contact Address</string>
+<string name="txtNo1Address">...  FLORIDA 33771 USA</string>
+<string name="txtNo2Address">... FLORIDA 33770 USA</string>
+<string name="no1Photo">No.1 Photo</string>
+<string name="no2Photo">No.2 Photo</string>
+<string name="txtLastName">"Last Name: "</string>
+<string name="txtFirstName">"First Name: "</string>
+<string name="txtAddress">Address:</string>
+<string name="txtPhoneNumber">Phone Number:</string>
+<string name="txtNo1PhoneNumber">727-111-2222</string>
+<string name="txtNo2PhoneNumber">727-111-1234</string>
+<string name="txtNo1Name">Kevin Jone</string>
+<string name="txtNo2Name">Lima Jack</string>
+    </resources>

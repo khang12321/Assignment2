@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">yourSchoolApp</string>
+    <string name="schoolTitle">SPC College</string>
+    <string name="buttonInfo">Information</string>
+    <string name="txtwelcome">Welcome to SPC College</string>
+    <string name="txtPhoneNumber">Phone Number: (727) 341-4772</string>
+    <string name="txtSchoolAddress">Address: 6605 Fifth Ave. N., St. Petersburg, FL 33710</string>
+    <string name="image1">SPCImage</string>
+    <string name="image2">SPCLogo</string>
+</resources>
