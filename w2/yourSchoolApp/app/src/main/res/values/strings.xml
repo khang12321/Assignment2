@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">yourSchoolApp</string>
+    <string name="schoolTitle">SPC College</string>
+    <string name="buttonInfo">Infomation</string>
+    <string name="txtwelcome">Welcom to SPC College Website</string>
+    <string name="txtInfomation">We offer more than 110 degree and certificate programs, including many high-demand, high-skill, industry-recognized workforce certifications.</string>
+    <string name="txtInfomation2">Take classes at one of our many campuses throughout Pinellas County or study online, where you have access to your courses 24 hours a day, seven days a week.</string>
+    <string name="image1">SPCImage</string>
+    <string name="image3">image3</string>
+    <string name="image2">image2</string>
+</resources>

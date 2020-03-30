@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:hint="@string/txtTitle"
+            android:text="@string/txtTitle"
+            android:textColor="#9C27B0"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/no1Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/no1Name"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#E91E63"
+            android:text="@string/txtNo1Name"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toTopOf="@+id/no1Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+        <Button
+            android:id="@+id/no1Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/detailButton"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/no2Name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no1Name" />
+
+        <TextView
+            android:id="@+id/no2Name"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#FFEB3B"
+            android:text="@string/txtNo2Name"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toTopOf="@+id/no2Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no1Button" />
+
+        <Button
+            android:id="@+id/no2Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="180dp"
+            android:text="@string/detailButton"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/no2Name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
